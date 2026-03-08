@@ -81,7 +81,7 @@ Dezavantajı ise genellikle HDD'ye göre daha pahalı olmasıdır.
 
 ---
 
-## Sonuç
+## Sonuçs
 
 Dosya sistemleri ve depolama teknolojileri bilgisayar performansında önemli rol oynar.
 
