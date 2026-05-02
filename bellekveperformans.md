@@ -36,7 +36,7 @@ Memory Leak Nedir? Nasıl Oluşur?
 
 Memory leak, kullanılmayan verilerin bellekten temizlenmemesi durumudur.
 
-Yani:
+Yani;
 Program o veriyi artık kullanmıyor ama bellek hâlâ dolu.
 
 Bu genelde şu durumlarda olur:
