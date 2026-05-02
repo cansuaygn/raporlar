@@ -28,10 +28,9 @@ State management ise bu verilerin nasıl yönetildiğini ifade eder. Küçük pr
 
 - Özellikle frontend tarafında bu konu çok önemli. Çünkü veri değiştikçe arayüzün de doğru şekilde güncellenmesi gerekiyor.
 
-Katmanlı Mimari (Service – Repository – Controller)
+Katmanlı Mimari (Service – Repository – Controller):
 
 Bu yapıda uygulama katmanlara ayrılır:
-s
 Controller → dış dünyadan gelen isteği alır
 Service → iş mantığını içerir
 Repository → veritabanı işlemlerini yapar
