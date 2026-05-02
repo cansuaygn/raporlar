@@ -31,7 +31,7 @@ State management ise bu verilerin nasıl yönetildiğini ifade eder. Küçük pr
 Katmanlı Mimari (Service – Repository – Controller)
 
 Bu yapıda uygulama katmanlara ayrılır:
-
+s
 Controller → dış dünyadan gelen isteği alır
 Service → iş mantığını içerir
 Repository → veritabanı işlemlerini yapar
