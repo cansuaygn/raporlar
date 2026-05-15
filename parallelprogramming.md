@@ -9,4 +9,3 @@ Aynı anda çalışan işlemlerin ortak verilere erişirken sorun oluşturabildi
 Bu süreçte thread-safe kod yazımının neden önemli olduğunu, eşzamanlı çalışan sistemlerde hata ayıklamanın neden zorlaştığını ve performans ile güvenlik arasında nasıl denge kurulduğunu daha iyi anlamaya başladım.
 
 Bu bölüm sayesinde çok çekirdekli sistemlerde çalışan daha güvenli, daha stabil ve daha performanslı yazılımlar geliştirme konusunda temel seviye bilgi kazandım.
-git commit -m "add concurrency report"
