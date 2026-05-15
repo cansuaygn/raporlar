@@ -40,7 +40,7 @@ Yani;
 Program o veriyi artık kullanmıyor ama bellek hâlâ dolu.
 
 Bu genelde şu durumlarda olur:
--Gereksiz referanslar tutulursa
+-Gereksiz referanslar tutulursa 
 -Nesneler serbest bırakılmazsa
 -Sonsuz döngü içinde veri birikirse
 

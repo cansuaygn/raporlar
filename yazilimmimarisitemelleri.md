@@ -34,7 +34,6 @@ Bu yapıda uygulama katmanlara ayrılır:
 Controller → dış dünyadan gelen isteği alır
 Service → iş mantığını içerir
 Repository → veritabanı işlemlerini yapar
-
 Bu ayrım sayesinde:
 
 Kod daha temiz olur
