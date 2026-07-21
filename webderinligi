@@ -1,0 +1,38 @@
+HTTP & Web Derinliği
+
+Daha önce sadece tarayıcıya bir adres yazınca sayfanın açıldığını biliyordum ama aslında tarayıcı ile sunucu arasında sürekli bir istek-cevap iletişimi olduğunu öğrendim.
+
+## HTTP
+
+HTTP, tarayıcı ile sunucunun konuşmasını sağlayan protokol.
+     Ben bir siteye girdiğimde tarayıcı sunucuya istek gönderiyor, sunucu da bana istediğim veriyi geri gönderiyor.
+      Bu veri bazen bir HTML sayfası, bazen JSON, bazen de bir resim olabiliyor.
+
+## Request ve Response
+
+İstek atan tarayıcı oluyor (Request), cevabı veren ise sunucu (Response).
+
+Örneğin bir kullanıcı listesini görmek istediğimde tarayıcı sunucuya istek gönderiyor Eğer her şey yolundaysa sunucu da kullanıcı listesini geri gönderiyor.
+
+## Status Code
+
+Sunucu cevabın sonucunu sayı olarak bildiriyor En çok karşıma çıkanlar şunlar oldu:
+
+ 200 Her şey normal.
+ 400  İstekte bir hata var.
+ 401  Giriş yapmam gerekiyor.
+ 404  Aradığım sayfa bulunamadı.
+ 500  Sorun benim değil, sunucuda hata var.
+
+Hata alırken bu kodlara bakmanın problemi anlamayı kolaylaştırdığını fark ettim.
+
+## CORS
+
+farklı adreslerde çalışan frontend ve backend'in güvenlik nedeniyle birbirine her zaman istek atamadığını öğrendim.
+Mesela frontend 3000 portunda, backend ise 5000 portunda çalışıyorsa tarayıcı bunu engelleyebiliyor. 
+Backend tarafında gerekli izin verilirse bu sorun çözülüyor.
+
+## Kendi Notum
+
+Bu konudan sonra tarayıcı ile sunucunun nasıl haberleştiğini daha net anlamaya başladım. Eskiden sadece API'yi çağırıyordum ama şimdi isteğin nasıl gittiğini cevabın nasıl döndüğünü ve hata kodlarının neden önemli olduğunu biliyorum. 
+Özellikle CORS'un neden çıktığını öğrenmek benim için faydalı oldu çünkü daha önce gördüğüm ama anlamını bilmediğim bir hataydı.
