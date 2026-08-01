@@ -15,12 +15,12 @@ Kod yazmadan önce sistemin nasıl organize edileceğine karar verme sürecidir.
     Bu nesne nasıl oluşturulmalı?
     + Singleton: Aynı sınıftan yalnızca bir nesne oluşturulmasını sağlamak.
     + Factory : Nesne oluşturma işlemini merkezi bir yapı üzerinden yönetmek.
--Structural Patterns:
+- Structural Patterns:
 	Nesnelerin ve sınıfların nasıl bir araya ge	tirileceğini düzenleyen desenlerdir.
 	Bu yapılar nasıl bağlanmalı?
     + Adapter: Birbirleriyle uyumsuz yapıların birlikte çalışmasını sağlamak
     + Decorator: Mevcut nesnenin davranışını değiştirmeden yeni özellikler eklemek.
--Behavioral Patterns:
+- Behavioral Patterns:
 	Nesnelerin birbirleriyle nasıl iletişim kuracağını ve nasıl davranacağını düzenleyen desenlerdir.
     Bu nesneler nasıl etkileşmeli?
     + Strategy: Aynı işi yapan farklı algoritmalar arasında çalışma anında seçim yapabilmek.
